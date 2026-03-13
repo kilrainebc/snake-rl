@@ -1,0 +1,19 @@
+{
+  "grid_size": 10,
+  "total_timesteps": 1000000,
+  "algorithm": "PPO",
+  "policy": "CnnPolicy",
+  "features_extractor": "SmallCNN (3x Conv2d 3x3 + Linear 256)",
+  "normalize_images": false,
+  "seed": 42,
+  "hyperparameters": {
+    "n_steps": 2048,
+    "batch_size": 256,
+    "n_epochs": 4,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "ent_coef": 0.01
+  }
+}
