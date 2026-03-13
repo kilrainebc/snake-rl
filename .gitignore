@@ -1,0 +1,13 @@
+# Trained model (20MB, regenerate with: make train)
+output/snake_ppo.zip
+
+# Training metrics (regenerate with: make train)
+output/training_metrics.json
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# OS
+.DS_Store
